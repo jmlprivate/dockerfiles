@@ -1,3 +1,3 @@
 FROM centos
-ENV name docker-jml
-ENTRYPOINT echo "hell $name"
+ENV name docker-cloud-tag-jml
+ENTRYPOINT echo "hell -tag- $name"
